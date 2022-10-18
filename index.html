@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>LetsRide</title>
+</head>
+<body>
+    <nav id="navbarHome">
+        <div id="header">
+            <h1 id="heading">Lets Ride!</h1>
+        </div> 
+        <div id="navElements">
+            <a class="bt">HOME</a>
+            <a class="bt">ABOUT US</a>
+            <a class="bt">HELP CENTER</a>
+            <div id="dashboardButtons">
+                <a href="index.html" class="bt">My Profile</a>
+            </div>
+        </div>
+        
+    </nav>
+    <br>
+   <article id="dashboardBox">
+    <div id="dashboard">
+        <h1 id="dashboardHeading" style="color: yellow;">BOOK A RIDE</h1>
+        <form id="login">
+            <input type="text" class="inp" id="location" placeholder="Location">
+            <div id="startDateTime">
+                <input type="date" class="start" id="date" placeholder="StartDate" onfocus="(this.type='date')" onblur="(this.type='text')">
+                <input type="time" class="start" id="time" placeholder="StartTime" onfocus="(this.type='time')" onblur="(this.type='text')">
+            </div>
+            <div id="endDateTime">
+                <input type="date" class="end" id="date" placeholder="EndDate" onfocus="(this.type='date')" onblur="(this.type='text')">
+                <input type="time" class="end" id="time" placeholder="EndTime" onfocus="(this.type='time')" onblur="(this.type='text')">
+            </div><br><br>
+            <input type="submit" value="CHECK AVAILABILITY" id="checkbutton">
+        </form><br><br>
+    </div>
+    
+   </article>
+</body>
+</html>

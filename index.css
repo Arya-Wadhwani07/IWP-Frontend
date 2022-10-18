@@ -2,10 +2,10 @@
     margin: 0%;
 }
 body{
-        background: url("../images/signup.png");
+        background: url("https://coresites-cdn-adm.imgix.net/mpora_new/wp-content/uploads/2017/07/5-2016_616.jpg?fit=crop");
         background-repeat: no-repeat;
         background-attachment: fixed !important;
-        background-size: 75% !important;
+        background-size: 100% !important;
         background-position: center right !important;
         padding: 0%;
         background-color: white;
@@ -36,7 +36,7 @@ nav{
     padding:15px;
     margin-left: 100px;
 }
-#loginLogout{
+#dashboard{
     text-align: center;
     color: black;
     font-weight:bolder;
@@ -53,14 +53,15 @@ nav{
     letter-spacing: 2.5px;
     color: black;
 }
-#whatWeDo{
+#dashboardBox{
     background-color: #000000;
     margin-left: 40px;
-    margin-top: 2.5%;
+    margin-top:5%;
     padding: 10px;
     width: 400px;
-    height: 600px;
+    height: 400px;
     border-radius: 25px;
+    opacity: 0.85;
 }
 .inp{
     width: 200px;
@@ -73,8 +74,52 @@ nav{
     border-radius: 25px;
     color: black;
 }
-.add{
-    width: 100px;
+
+#checkbutton{
+    background-color:  yellow;
+    padding: 10px 40px 10px 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:medium ;
+    border-radius: 10px;
+    border-width: 2px;;
+}
+#checkbutton:hover{
+    background-color: rgb(227, 185, 57);
+    color: black;
+    transition: 0.2s
+}
+#dashboardButtons{
+    float: right;
+    text-decoration: none;
+    color: yellow;
+}
+input[type=date] {
+    text-align: center;
+}
+  
+input[type="date"]:before {
+    color: black;
+    content: attr(placeholder) !important;
+}
+input[type="date"]:focus:before {
+    content: '' !important;
+}
+
+input[type=time] {
+    text-align: center;
+}
+  
+input[type="time"]:before {
+    color: black;
+    content: attr(placeholder) !important;
+}
+  input[type="time"]:focus:before {
+    content: '' !important;
+}
+.start,.end{
+    width: 85px;
     display: block;
     text-align: center;
     margin-left: auto;
@@ -85,33 +130,4 @@ nav{
     color: black;
     border-radius: 10px;
     display: inline;
-}
-
-#signupbutton{
-    background-color:  yellow;
-    padding: 10px 40px 10px 40px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size:medium ;
-    border-radius: 10px;
-    border-width: 2px;;
-}
-#signupbutton:hover{
-    background-color: rgb(227, 185, 57);
-    color: black;
-    transition: 0.2s
-}
-#forgot{
-    color: yellow;
-}
-#forgotPassword{
-    display: block;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#loginlogoutbuttons,#loginbt{
-    float: right;
-    text-decoration: none;
-    color: yellow;
 }
