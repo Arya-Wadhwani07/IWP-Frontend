@@ -98,8 +98,8 @@ nav{
     border-width: 2px;;
 }
 #signupbutton:hover{
-    background-color: wheat;
-    color: yellow;
+    background-color: rgb(227, 185, 57);
+    color: black;
     transition: 0.2s
 }
 #forgot{
