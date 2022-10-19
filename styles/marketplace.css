@@ -1,0 +1,81 @@
+body {
+    font-weight: bolder;
+}
+h1{
+    /* Center  */
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Display flex caoursel */
+.carousel{
+    display: flex;
+    /* Center  */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* Center  */
+    
+}
+p {
+    margin-top: 5%;
+}
+.bag1 {
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    margin-top: 6%;
+    width: 67%;
+    background-color: #DDE113;
+    height: 10%;
+    border-radius: 5px;
+}
+.card{
+    /* Center  */
+    text-align: center;
+    /* Center  */
+    margin: 0 auto;
+    /* Center  */
+    width: 400px;
+    /* Center  */
+    height: 500px;
+    /* Center  */
+    background-color: black;
+    /* Center  */
+    border-radius: 10px;
+    /* Center  */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /* Center  */
+    margin: 10px;
+    /* Center  */
+    padding: 10px;
+    /* Center  */
+    transition: 0.5s;
+    /* Center  */
+    cursor: pointer;
+    /* Center  */
+    position: relative;
+    /* Center  */
+    overflow: hidden;
+    /* Center  */
+    display: flex;
+    /* Center  */
+    justify-content: center;
+    /* Center  */
+    align-items: center;
+    /* Center  */
+    flex-direction: column;
+    /* Center  */
+    text-decoration: none;
+    /* Center  */
+    color: white;
+    /* Center  */
+    font-family: 'Poppins', sans-serif;
+    ;
+}
